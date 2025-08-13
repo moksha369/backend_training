@@ -1,0 +1,23 @@
+{
+  "contatos": [
+    {
+      "id": "030c"
+    },
+    {
+      "nome": "Jose",
+      "id": "8cc8",
+      "email": "jose.reginaldo@iesb.br"
+    },
+    {
+      "id": "6056",
+      "nome": "Maria",
+      "email": "maria@iesb.br"
+    },
+    {
+      "id": "030d",
+      "nome": "Pedro",
+      "email": "Pedro@iesb.br",
+      "telefone": "61 9999-9999"
+    }
+  ]
+}
