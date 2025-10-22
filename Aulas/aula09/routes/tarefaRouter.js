@@ -1,4 +1,5 @@
 const express = require("express");
+
 const controller = require('../controllers/tarefaController');
 
 const router = express.Router();

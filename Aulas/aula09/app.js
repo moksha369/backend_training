@@ -1,21 +1,17 @@
-require("dotenv").config(); // Carrega o arquivo .env de configuração
+require("dotenv").config();
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 
-const tarefaRouter = require("./routes/tarefaRouter.js");
+const tarefaRouter = require("./routes/tarefaRouter");
 
-const url = `mongodb+srv://${process.env.MONGODB_USER}
-:${process.env.MONGODB_PSWD}
-@${process.env.MONGODB_HOST}/`;
+const url = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PSWD}@${process.env.MONGODB_HOST}/${process.env.MONGODB_DBNAME}`;
 
 mongoose
   .connect(url)
   .then(() => console.log("Conectado no MongoDB"))
-  .catch((err) => {
-    console.log("Erro ao conectar no MongoDB", err.message);
-  });
+  .catch((err) => console.log("Erro ao conectar no MongoDB", err.message));
 
 const app = express();
 
