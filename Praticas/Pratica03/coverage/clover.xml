@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1756854539755" clover="3.2.0">
+  <project timestamp="1756854539755" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1" elements="25" coveredelements="25" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="calcularMediaAluno.js" path="C:\Users\2324291056\Documents\BECK NOT END\backend_training\Praticas\Pratica03\src\calcularMediaAluno.js">
+      <metrics statements="12" coveredstatements="12" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="2" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="6" count="9" type="cond" truecount="4" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
